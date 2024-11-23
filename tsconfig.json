@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6", // El nivel de JavaScript de salida
+    "module": "commonjs", // El sistema de módulos que se va a utilizar
+    "outDir": "./dist", // Carpeta de salida para los archivos compilados
+    "rootDir": "./src", // Carpeta donde están los archivos fuente
+    "strict": true, // Habilitar todas las comprobaciones de tipo
+    "esModuleInterop": true // Permite la interoperabilidad entre módulos ES y CommonJS
+  },
+  "include": ["src/**/*"], // Archivos a incluir en la compilación
+  "exclude": ["node_modules"] // Archivos a excluir de la compilación
+}
